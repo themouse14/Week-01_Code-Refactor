@@ -25,7 +25,9 @@ body {
   color: #d9dcd6;
 }
 
-.header div {
+/*changed all occurances of div in the html and css to section to make it more semantic*/
+
+.header section {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,11 +35,11 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
+.header section ul {
   list-style-type: none;
 }
 
-.header div ul li {
+.header section ul li {
   display: inline-block;
   margin-left: 25px;
 }
